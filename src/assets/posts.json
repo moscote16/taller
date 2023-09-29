@@ -1,0 +1,14 @@
+[
+    {
+        "title": "ROBOTICA",
+        "summary":"este es el resumen",
+        "text": "La robótica es una ciencia que aglutina varias ramas tecnológicas: la rama de la ingeniería mecánica, de la ingeniería electrónica y de las ciencias de la computación, ocupándose del diseño, construcción, operación, estructura, manufactura y aplicación de los robots."
+        
+    },
+    {
+        "title": "Historia de la robótica",
+        "summary":"este es el resumen" ,
+        "text": "La robótica va unida a la construcción de artefactos que trataban de materializar el deseo humano de crear seres a su semejanza y que al mismo tiempo lo descargasen de trabajos tediosos o peligrosos. "
+        
+    }
+]

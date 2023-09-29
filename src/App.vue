@@ -1,27 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <img alt="Vue-logo" src="./assets/inteligencia.jpg" class="im">
+  <PostContainer/>
+  <a href="https://www.wipo.int/wipo_magazine/es/2016/06/article_0002.html" target="_blank">Avances</a>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+import{defineComponent, DefineComponent} from 'vue';
+import PostContainer from './components/PostContainer.vue';
+export default defineComponent({
+   components:{
+     PostContainer
+   }
+ })
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .im{
+    width: 200px;
+    height: 200px;
+  }
+  
 </style>
+
